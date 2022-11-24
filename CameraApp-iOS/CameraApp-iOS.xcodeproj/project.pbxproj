@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC488ADB292F62DE00AF4E23 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC488ADA292F62DE00AF4E23 /* PhotoViewController.swift */; };
 		DC541C2F292F543700BC04E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC541C2E292F543700BC04E0 /* AppDelegate.swift */; };
 		DC541C31292F543700BC04E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC541C30292F543700BC04E0 /* SceneDelegate.swift */; };
 		DC541C36292F543700BC04E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC541C34292F543700BC04E0 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC488ADA292F62DE00AF4E23 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		DC541C2B292F543700BC04E0 /* CameraApp-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CameraApp-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC541C2E292F543700BC04E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC541C30292F543700BC04E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				DC541C30292F543700BC04E0 /* SceneDelegate.swift */,
 				DC541C34292F543700BC04E0 /* Main.storyboard */,
 				DC541C42292F598C00BC04E0 /* CameraViewController.swift */,
+				DC488ADA292F62DE00AF4E23 /* PhotoViewController.swift */,
 				DC541C37292F543900BC04E0 /* Assets.xcassets */,
 				DC541C39292F543900BC04E0 /* LaunchScreen.storyboard */,
 				DC541C3C292F543900BC04E0 /* Info.plist */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC541C2F292F543700BC04E0 /* AppDelegate.swift in Sources */,
+				DC488ADB292F62DE00AF4E23 /* PhotoViewController.swift in Sources */,
 				DC541C31292F543700BC04E0 /* SceneDelegate.swift in Sources */,
 				DC541C43292F598C00BC04E0 /* CameraViewController.swift in Sources */,
 			);
