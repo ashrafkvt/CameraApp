@@ -16,9 +16,32 @@
                     <view key="view" contentMode="scaleToFill" id="FbT-Pd-LpN">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ez9-8V-QtP">
+                                <rect key="frame" x="156.66666666666666" y="713" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="XDK-rc-Pe0"/>
+                                    <constraint firstAttribute="height" constant="80" id="uOH-1Q-nNg"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="camera_button">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="cameraButtonTappedWithSender:" destination="PO6-w0-p7s" eventType="touchUpInside" id="xq9-wA-Hhe"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="S3e-M4-414"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="S3e-M4-414" firstAttribute="bottom" secondItem="ez9-8V-QtP" secondAttribute="bottom" constant="25" id="4JC-RX-cUq"/>
+                            <constraint firstItem="ez9-8V-QtP" firstAttribute="centerX" secondItem="FbT-Pd-LpN" secondAttribute="centerX" id="8op-iw-EgF"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="cameraButton" destination="ez9-8V-QtP" id="kGX-ox-c8x"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fbQ-2I-jW4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -41,6 +64,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="camera_button" width="81.333335876464844" height="81.333335876464844"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
